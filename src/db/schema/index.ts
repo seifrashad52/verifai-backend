@@ -1,3 +1,3 @@
-export * from "./auth.schema";
-export * from "./claims.schema";
-export * from "./game.schema";
+export * from "./auth.schema.js";
+export * from "./claims.schema.js";
+export * from "./game.schema.js";

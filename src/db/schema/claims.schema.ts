@@ -1,5 +1,5 @@
 import { pgTable, text, timestamp, jsonb, pgEnum, uuid } from "drizzle-orm/pg-core";
-import { user } from "./auth.schema";
+import { user } from "./auth.schema.js";
 
 export const claimInputTypeEnum = pgEnum("claim_input_type", ["text", "image", "screenshot"]);
 export const verdictEnum = pgEnum("verdict", ["true", "false", "unverifiable"]);

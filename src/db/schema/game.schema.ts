@@ -9,8 +9,8 @@ import {
   uuid,
   uniqueIndex,
 } from "drizzle-orm/pg-core";
-import { user } from "./auth.schema";
-import { verdictEnum } from "./claims.schema";
+import { user } from "./auth.schema.js";
+import { verdictEnum } from "./claims.schema.js";
 
 export const platformTypeEnum = pgEnum("platform_type", [
   "whatsapp",
